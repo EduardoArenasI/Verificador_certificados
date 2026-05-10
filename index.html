@@ -1,0 +1,193 @@
+<!-- ===================================================
+     ITSE - VERIFICACIÓN DE CERTIFICADOS
+=================================================== -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Verificación de Certificados | ITSE
+    </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+
+<body>
+
+    <!-- FONDO -->
+    <div class="bg-grid"></div>
+
+    <!-- CONTENEDOR -->
+    <main class="container">
+
+        <!-- CARD -->
+        <div class="verification-card">
+
+            <!-- BARRA SUPERIOR -->
+            <div class="top-bar"></div>
+
+            <!-- CONTENIDO -->
+            <div class="content">
+
+                <!-- LOGO -->
+                <div class="logo-area">
+
+                    <!-- LOGO ITSE -->
+                    <img
+                    src="assets/itescarcega.jpg"
+                    alt="Logo ITSE">
+
+                    <h1>
+                        VERIFICACIÓN DE CERTIFICADOS
+                    </h1>
+
+                    <div class="line"></div>
+
+                    <p>
+                        Sistema Oficial de Validación Académica
+                    </p>
+
+                </div>
+
+                <!-- BUSCADOR -->
+                <div class="search-section">
+
+                    <label>
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                        Buscar por nombre o ID del certificado
+
+                    </label>
+
+                    <div class="search-box">
+
+                        <input
+                        type="text"
+
+                        id="searchInput"
+
+                        placeholder="Ejemplo: Eduardo Arenas o CERT-2026-001"
+
+                        autocomplete="off">
+
+                        <!-- BOTÓN -->
+                        <button class="search-btn">
+
+                            <i class="fa-solid fa-magnifying-glass"></i>
+
+                        </button>
+
+                    </div>
+
+                    <!-- SUGERENCIAS -->
+                    <div id="suggestions"></div>
+
+                </div>
+
+                <!-- RESULTADO -->
+                <div id="result">
+
+                    <!-- MENSAJE INICIAL -->
+                    <div class="result-card">
+
+                        <div class="result-title">
+                            Resultados
+                        </div>
+
+                        <div class="result-info">
+                            Escribe al menos 2 caracteres para buscar
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARDS INFERIORES -->
+                <div class="features">
+
+                    <!-- CARD 1 -->
+                    <div class="feature">
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                        <h3>
+                            Sistema Seguro
+                        </h3>
+
+                        <p>
+                            Información protegida
+                        </p>
+
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="feature">
+
+                        <i class="fa-solid fa-circle-check"></i>
+
+                        <h3>
+                            Datos Oficiales
+                        </h3>
+
+                        <p>
+                            Verificación institucional
+                        </p>
+
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="feature">
+
+                        <i class="fa-solid fa-graduation-cap"></i>
+
+                        <h3>
+                            Confianza y Transparencia
+                        </h3>
+
+                        <p>
+                            Compromiso ITSE
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FOOTER -->
+            <div class="footer">
+
+                <i class="fa-solid fa-lock"></i>
+
+                Instituto Tecnológico Superior de Escárcega
+
+                <br>
+
+                © 2026 Todos los derechos reservados
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
