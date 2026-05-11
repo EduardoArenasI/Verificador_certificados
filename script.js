@@ -294,6 +294,11 @@ function mostrarCertificado(cert) {
 
     <br><br>
 
+     <strong>Perfil:</strong><br>
+    <span>${sanitizarTexto(cert.Perfil)}</span>
+
+    <br><br>
+
     <strong>Programa Académico:</strong><br>
     <span>${sanitizarTexto(cert.curso)}</span>
 

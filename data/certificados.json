@@ -1,6 +1,7 @@
 [
   {
     "nombre": "Eduardo Arenas Interian",
+    "Perfil": "Participante",
     "id": "CERT-2026-001",
     "curso": "Inteligencia Artificial",
     "estado": "VALIDO"
@@ -8,6 +9,7 @@
 
   {
     "nombre": "Ana Arceon López",
+    "Perfil": "Participante",
     "id": "CERT-2026-002",
     "curso": "Innovatec 2026 Local",
     "estado": "VALIDO"
@@ -15,6 +17,7 @@
 
   {
     "nombre": "Carlos Ruiz López",
+    "Perfil": "Juez",
     "id": "CERT-2026-003",
     "curso": "Ciberseguridad",
     "estado": "VALIDO"
@@ -22,6 +25,7 @@
 
   {
     "nombre": "Fernanda Castillo Méndez",
+    "Perfil": "Participante",
     "id": "CERT-2026-004",
     "curso": "Big Data",
     "estado": "VALIDO"
