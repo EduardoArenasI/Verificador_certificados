@@ -338,11 +338,27 @@ function mostrarError(mensaje) {
 
 // ===============================
 // DETECTAR DEVTOOLS
+// SOLO CUANDO LA PÁGINA ESTÁ ACTIVA
 // ===============================
 
 let devtoolsOpen = false;
 
+let paginaActiva = true;
+
+// Detectar si la pestaña está activa
+document.addEventListener("visibilitychange", () => {
+
+  paginaActiva = !document.hidden;
+
+});
+
+// Detectar DevTools
 setInterval(() => {
+
+  // NO ejecutar si la pestaña está inactiva
+  if (!paginaActiva) {
+    return;
+  }
 
   const widthThreshold =
     window.outerWidth -
@@ -380,6 +396,7 @@ setInterval(() => {
           <h1 style="
             font-size:2rem;
             margin-bottom:15px;
+            font-weight:700;
           ">
             Acceso Restringido
           </h1>
@@ -387,9 +404,11 @@ setInterval(() => {
           <p style="
             color:#6b7280;
             font-size:1rem;
+            max-width:400px;
+            line-height:1.7;
           ">
             La inspección del sistema
-            ha sido bloqueada.
+            ha sido bloqueada por seguridad.
           </p>
 
         </div>
@@ -400,5 +419,4 @@ setInterval(() => {
 
   }
 
-}, 1000);
-
+}, 100000);
