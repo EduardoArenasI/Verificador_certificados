@@ -1,0 +1,29 @@
+[
+  {
+    "nombre": "Eduardo Arenas Interian",
+    "id": "CERT-2026-001",
+    "curso": "Inteligencia Artificial",
+    "estado": "VALIDO"
+  },
+
+  {
+    "nombre": "Ana Cristina Alpuche",
+    "id": "CERT-2026-002",
+    "curso": "Enfermeria Avanzada",
+    "estado": "VALIDO"
+  },
+
+  {
+    "nombre": "Carlos Ruiz López",
+    "id": "CERT-2026-003",
+    "curso": "Ciberseguridad",
+    "estado": "VALIDO"
+  },
+
+  {
+    "nombre": "Fernanda Castillo Méndez",
+    "id": "CERT-2026-004",
+    "curso": "Big Data",
+    "estado": "VALIDO"
+  }
+]
