@@ -418,6 +418,53 @@ function mostrarCertificado(cert) {
       )}
     </span>
 
+    <br><br><br>
+
+<div style="
+  width:100%;
+  display:flex;
+  justify-content:center;
+">
+
+  <a
+    href="https://drive.google.com/drive/folders/1XnfvjcJvgJb0hKo9hpSO61S_KLyb79IW?usp=sharing"
+    target="_blank"
+
+    style="
+      background:#8b1028;
+      color:white;
+      text-decoration:none;
+
+      padding:14px 28px;
+
+      border-radius:14px;
+
+      font-weight:600;
+
+      transition:0.3s ease;
+
+      box-shadow:
+      0 6px 18px rgba(139,16,40,0.20);
+    "
+
+    onmouseover="
+      this.style.transform='translateY(-2px)';
+      this.style.background='#a01230';
+    "
+
+    onmouseout="
+      this.style.transform='translateY(0)';
+      this.style.background='#8b1028';
+    "
+
+  >
+
+    Descargar Constancia
+
+  </a>
+
+</div>
+
   `;
 
   card.appendChild(title);
