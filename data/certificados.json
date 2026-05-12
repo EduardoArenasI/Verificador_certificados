@@ -1,33 +1,576 @@
 [
   {
-    "nombre": "Eduardo Arenas Interian",
-    "Perfil": "Participante",
-    "id": "CERT-2026-001",
-    "curso": "Inteligencia Artificial",
+    "nombre": "MARTIN GABRIEL CHAN PALOMO",
+    "Perfil": "Asesor",
+    "Proyecto": "XTOP’ K’ÚUM",
+    "Categoria": "SECTOR AGROINDUSTRIAL",
     "estado": "VALIDO"
   },
 
   {
-    "nombre": "Ana Arceon López",
-    "Perfil": "Participante",
-    "id": "CERT-2026-002",
-    "curso": "Innovatec 2026 Local",
+    "nombre": "ABIGAIL MALERVA DIAZ",
+    "Perfil": "Asesor",
+    "Proyecto": "XTOP’ K’ÚUM",
+    "Categoria": "SECTOR AGROINDUSTRIAL",
     "estado": "VALIDO"
   },
 
   {
-    "nombre": "Carlos Ruiz López",
-    "Perfil": "Juez",
-    "id": "CERT-2026-003",
-    "curso": "Ciberseguridad",
+    "nombre": "EDITH GONZÁLEZ LAZO",
+    "Perfil": "Asesor",
+    "Proyecto": "AGRO-NET",
+    "Categoria": "SECTOR AGROINDUSTRIAL",
     "estado": "VALIDO"
   },
 
   {
-    "nombre": "Fernanda Castillo Méndez",
-    "Perfil": "Participante",
-    "id": "CERT-2026-004",
-    "curso": "Big Data",
+    "nombre": "MAXIMILIANO VANOYE ELIGIO",
+    "Perfil": "Asesor",
+    "Proyecto": "AGRO-NET",
+    "Categoria": "SECTOR AGROINDUSTRIAL",
     "estado": "VALIDO"
   }
+  ,
+
+  {
+    "nombre": "JUAN CARLOS DIAZ LOPEZ",
+    "Perfil": "Asesor",
+    "Proyecto": "ASISTEC",
+    "Categoria": "INDUSTRIA ELÉCTRICA Y ELECTRÓNICA",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "HESIQUIO ZÁRATE LANDA",
+    "Perfil": "Asesor",
+    "Proyecto": "ASISTEC",
+    "Categoria": "INDUSTRIA ELÉCTRICA Y ELECTRÓNICA",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "IVAN HUMBERTO FUENTES CHAB",
+    "Perfil": "Asesor",
+    "Proyecto": "PEKI-APP",
+    "Categoria": "TECNOLOGÍAS PARA LA SALUD HUMANA",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "YESENIA NAYROVICK HERNANDEZ MONTERO",
+    "Perfil": "Asesor",
+    "Proyecto": "PEKI-APP",
+    "Categoria": "TECNOLOGÍAS PARA LA SALUD HUMANA",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "YESENIA NAYROVICK HERNANDEZ MONTERO",
+    "Perfil": "Asesor",
+    "Proyecto": "K’ANAN: Salud para todos",
+    "Categoria": "TECNOLOGÍAS PARA LA SALUD HUMANA",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "IVAN HUMBERTO FUENTES CHAB",
+    "Perfil": "Asesor",
+    "Proyecto": "K’ANAN: Salud para todos",
+    "Categoria": "TECNOLOGÍAS PARA LA SALUD HUMANA",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "MARIA GUADALUPE OJEDA LAINES",
+    "Perfil": "Asesor",
+    "Proyecto": "BIOHANI",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "GUADALUPE DEL ROCÍO VELA ALPUCHE",
+    "Perfil": "Asesor",
+    "Proyecto": "BIOHANI",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "ADRIANA DOLORES ATLAHUA",
+    "Perfil": "Asesor",
+    "Proyecto": "ECO-SUEXTIL",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "DULCE MARÍA DE JESÚS DELGADO CIH",
+    "Perfil": "Asesor",
+    "Proyecto": "ECO-SUEXTIL",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "MARIA GUADALUPE OJEDA LAINES",
+    "Perfil": "Asesor",
+    "Proyecto": "LIVE ESSENCES",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "LUCIA VIVEROS MORENO",
+    "Perfil": "Asesor",
+    "Proyecto": "LIVE ESSENCES",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "WILBERTH ALFREDO MOLINA GALICIA",
+    "Perfil": "Asesor",
+    "Proyecto": "BELI LOOP",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "JIMMY RICARDO MIER GUERRA",
+    "Perfil": "Asesor",
+    "Proyecto": "BELI LOOP",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "ESMERALDA LÓPEZ PÉREZ",
+    "Perfil": "Asesor",
+    "Proyecto": "TETRA BLOCK",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "ADRIANA DOLORES ATLAHUA",
+    "Perfil": "Asesor",
+    "Proyecto": "TETRA BLOCK",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "EDITH GONZÁLEZ LAZO",
+    "Perfil": "Asesor",
+    "Proyecto": "BICOTAM",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "MAXIMILIANO VANOYE ELIGIO",
+    "Perfil": "Asesor",
+    "Proyecto": "BICOTAM",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "JIMMY RICARDO MIER GUERRA",
+    "Perfil": "Asesor",
+    "Proyecto": "BIOPALM",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "MARTIN GABRIEL CHAN PALOMO",
+    "Perfil": "Asesor",
+    "Proyecto": "BIOPALM",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "MARTHA ELENA CERVANTES SÁNCHEZ",
+    "Perfil": "Asesor",
+    "Proyecto": "DOGMAR",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "JIMMY RICARDO MIER GUERRA",
+    "Perfil": "Asesor",
+    "Proyecto": "DOGMAR",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": " BLANCA DEL ROSARIO MARTIN CANCHE",
+    "Perfil": "Asesor",
+    "Proyecto": "YA’AX JEEL",
+    "Categoria": " BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "GUILLERMINA VELASCO VIVEROS",
+    "Perfil": "Asesor",
+    "Proyecto": "YA’AX JEEL",
+    "Categoria": " BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "ILEANA JAVIER JIMÉNEZ",
+    "Perfil": "Asesor",
+    "Proyecto": "CAMONTIC",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "ABIGAIL MALERVA DIAZ",
+    "Perfil": "Asesor",
+    "Proyecto": "CAMONTIC",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "JUANA GUZMÁN DAMIAN",
+    "Perfil": "Asesor",
+    "Proyecto": "WAYI´IJ",
+    "Categoria": " BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "HUMBERTO NEFTALI BENITEZ ASCENCIO",
+    "Perfil": "Asesor",
+    "Proyecto": "XILOTL",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "JORGE RAMON RAMOS BAÑOS",
+    "Perfil": "Asesor",
+    "Proyecto": "XILOTL",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "LUCIA VIVEROS MORENO",
+    "Perfil": "Asesor",
+    "Proyecto": "CICATRICAMPO",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "CECILIA DE JESUS LOPEZ VELASCO",
+    "Perfil": "Asesor",
+    "Proyecto": "MAJOFI",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "BIBIANA PIEDRA VAZQUEZ",
+    "Perfil": "Asesor",
+    "Proyecto": "MAJOFI",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "WILBERTH ALFREDO MOLINA GALICIA",
+    "Perfil": "Asesor",
+    "Proyecto": "QUESO ROSVELIA",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "ABIGAIL MALERVA DIAZ",
+    "Perfil": "Asesor",
+    "Proyecto": "QUESO ROSVELIA",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "JORGE RAMON RAMOS BAÑOS",
+    "Perfil": "Asesor",
+    "Proyecto": "MANIZUST",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  
+  ,
+
+  {
+    "nombre": "HUMBERTO NEFTALI BENITEZ ASCENCIO",
+    "Perfil": "Asesor",
+    "Proyecto": "MANIZUST",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+  ,
+
+  {
+    "nombre": "MARIA DEL CARMEN GOMEZ CAMAL",
+    "Perfil": "Asesor",
+    "Proyecto": "GASTRALIV",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": "FELIX ALEJANDRA LUNA MEDINA",
+    "Perfil": "Asesor",
+    "Proyecto": "GASTRALIV",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": "JUAN MANUEL ORTEGA ALMEYDA",
+    "Perfil": "Asesor",
+    "Proyecto": "SOLKA",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": "ROSA ELENA MEDINA HERNANDEZ",
+    "Perfil": "Asesor",
+    "Proyecto": "SOLKA",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": "JUAN MANUEL ORTEGA ALMEYDA",
+    "Perfil": "Asesor",
+    "Proyecto": "XOCOL-CHIL",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": "ROSA ELENA MEDINA HERNANDEZ",
+    "Perfil": "Asesor",
+    "Proyecto": "XOCOL-CHIL",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Asesor",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+
+
 ]
