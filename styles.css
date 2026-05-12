@@ -14,9 +14,9 @@
 
 :root {
 
-    --guinda: #8b1028;
-    --guinda-dark: #6d0c1f;
-    --guinda-light: #b51d3a;
+    --guinda: #61162d;
+    --guinda-dark: #61162d;
+    --guinda-light: #61162d;
 
     --white: #ffffff;
     --bg: #f5f5f7;
@@ -705,7 +705,7 @@ body::before {
 
     border-radius: 50%;
 
-    background: #8b1028;
+    background: #61162d;
 
     z-index: 0;
 }
@@ -749,7 +749,7 @@ body::after {
 
     border-radius: 50%;
 
-    background: #8b1028;
+    background: #61162d;
 
     z-index: 0;
 }
@@ -901,9 +901,9 @@ body::after {
 
     background:
         linear-gradient(90deg,
-            #8b1028,
-            #b51d3a,
-            #8b1028);
+            #61162d,
+            #61162d,
+            #61162d);
 }
 
 /* FIX FINAL SCROLL */
