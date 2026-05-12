@@ -101,7 +101,7 @@ function sanitizarTexto(texto) {
 }
 
 // ===============================
-// BUSCADOR EN TIEMPO REAL
+// EVENTOS
 // ===============================
 
 input.addEventListener("input", buscarCertificados);
@@ -127,7 +127,10 @@ function buscarCertificados() {
 
   result.innerHTML = "";
 
-  // Evitar vacío
+  // ===============================
+  // INPUT VACÍO
+  // ===============================
+
   if (valor.length < 2) {
 
     result.innerHTML = `
@@ -149,7 +152,10 @@ function buscarCertificados() {
     return;
   }
 
-  // Validar caracteres
+  // ===============================
+  // VALIDAR ENTRADA
+  // ===============================
+
   if (
     /[^a-zA-ZáéíóúÁÉÍÓÚñÑ0-9\s\-]/g.test(valor)
   ) {
@@ -161,7 +167,10 @@ function buscarCertificados() {
     return;
   }
 
-  // Limitar longitud
+  // ===============================
+  // LIMITAR LONGITUD
+  // ===============================
+
   if (valor.length > 60) {
 
     mostrarError(
@@ -179,7 +188,11 @@ function buscarCertificados() {
 
     cert.nombre.toLowerCase().includes(valor) ||
 
-    cert.id.toLowerCase().includes(valor)
+    cert.Perfil.toLowerCase().includes(valor) ||
+
+    cert.Proyecto.toLowerCase().includes(valor) ||
+
+    cert.Categoria.toLowerCase().includes(valor)
 
   );
 
@@ -218,26 +231,26 @@ function buscarCertificados() {
 
     div.classList.add("suggestion-item");
 
-    // Nombre
+    // NOMBRE
     const nombre = document.createElement("div");
 
     nombre.classList.add("suggestion-name");
 
     nombre.textContent = cert.nombre;
 
-    // ID
-    const id = document.createElement("div");
+    // PROYECTO
+    const proyecto = document.createElement("div");
 
-    id.classList.add("suggestion-id");
+    proyecto.classList.add("suggestion-id");
 
-    id.textContent = cert.id;
+    proyecto.textContent = cert.Proyecto;
 
-    // Agregar
+    // AGREGAR
     div.appendChild(nombre);
 
-    div.appendChild(id);
+    div.appendChild(proyecto);
 
-    // Click
+    // CLICK
     div.addEventListener("click", () => {
 
       mostrarCertificado(cert);
@@ -277,7 +290,7 @@ function mostrarCertificado(cert) {
   title.innerHTML =
     "Certificado Validado";
 
-  // INFO
+  // INFORMACIÓN
   const info = document.createElement("div");
 
   info.classList.add("result-info");
@@ -290,16 +303,16 @@ function mostrarCertificado(cert) {
     <br><br>
 
     <strong>Perfil:</strong><br>
-    <span>${sanitizarTexto(cert.perfil)}</span>
+    <span>${sanitizarTexto(cert.Perfil)}</span>
 
     <br><br>
 
-     <strong>Proyecto:</strong><br>
+    <strong>Proyecto:</strong><br>
     <span>${sanitizarTexto(cert.Proyecto)}</span>
 
     <br><br>
 
-    <strong>categoria:</strong><br>
+    <strong>Categoría:</strong><br>
     <span>${sanitizarTexto(cert.Categoria)}</span>
 
     <br><br>
@@ -343,7 +356,7 @@ function mostrarError(mensaje) {
 
 // ===============================
 // DETECTAR DEVTOOLS
-// SOLO CUANDO LA PÁGINA ESTÁ ACTIVA
+// SOLO SI LA PÁGINA ESTÁ ACTIVA
 // ===============================
 
 let devtoolsOpen = false;
@@ -424,4 +437,4 @@ setInterval(() => {
 
   }
 
-}, 100000);
+}, 2000);
