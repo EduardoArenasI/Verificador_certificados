@@ -411,166 +411,386 @@
   }
     ,
 
+
+
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Aaron Antonio Pérez Santiago",
+    "Perfil": "MODERADOR",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Vianey Mendoza Alvarado",
+    "Perfil": "Moderador",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Isabel Guadalupe Delgado Cih",
+    "Perfil": "Moderador",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Isabel Guadalupe Delgado Cih",
+    "Perfil": "Moderador",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Raul Alejandro Ucan Moreno",
+    "Perfil": "Moderador",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Javier Lindbergh Uc Pedraza",
+    "Perfil": "Responsable de Equipo Moderador",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Martha Paola Novelo Pat",
+    "Perfil": "Responsable de Equipo Moderador",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Lucia Antonieta López Velasco",
+    "Perfil": "Responsable de Registro y Control de Participantes",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Adriana Lucrecia González Sánchez",
+    "Perfil": "Responsable de Registro y Control de Participantes",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Martha Flores Arias",
+    "Perfil": "Responsable de Actividades Académicas, Culturales y/o Cívicas",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Juan Manuel Naal Espinosa ",
+    "Perfil": "Responsable de Comunicación y Difusión",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Juana Guzman Damian",
+    "Perfil": "Responsable de Ceremonias",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Emeterio José Sánchez Ponciano",
+    "Perfil": "Responsable de Espacios",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Eliseo Refugio Hernández",
+    "Perfil": "Responsable de Tecnologias de la Información",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Augusto Román Dzul Robaldino",
+    "Perfil": "Responsable de la Unidad Interna de Protección Civil",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "Christian Sharlin Gómez Uc",
+    "Perfil": "Responsable de Atención",
     "estado": "VALIDO"
   }
     ,
 
   {
-    "nombre": " ",
-    "Perfil": "Asesor",
-    "Proyecto": "",
-    "Categoria": " ",
+    "nombre": "FRANCISCO ARRIOLA ESCALANTE ",
+    "Perfil": "Jurado",
+    "Categoria": "BIENES DE CONSUMO FINAL",
     "estado": "VALIDO"
   }
     ,
 
   {
+    "nombre": "ORELY QUIRARTE PRIEGO ",
+    "Perfil": "Jurado",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": "JAZIEL ALFONSO REYES DE LA ROCHA",
+    "Perfil": "Jurado",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "JESÚS ARMANDO REYES DE LA ROCHA ",
+    "Perfil": "Jurado",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "RICARDO ANTONIO CHIQUINI MEDINA ",
+    "Perfil": "Jurado",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "ARMANDO ARTURO CANCECO ARCEO",
+    "Perfil": "Jurado",
+    "Categoria": "BIENES DE CONSUMO FINAL",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "BENITO BERNARDO  DZIB CASTILLO ",
+    "Perfil": "Jurado",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "SCHUBERT SOLIS CASTRO",
+    "Perfil": "Jurado",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "RAFAEL EDUARDO ALCALA ORTIZ ",
+    "Perfil": "Jurado",
+    "Categoria": "SOSTENIBILIDAD AMBIENTAL",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "CARLOS JOSUE HERRERA GUZMÁN ",
+    "Perfil": "Jurado",
+    "Categoria": "SECTOR AGROINDUSTRIAL",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "WALTER SANTANA GÓMEZ ",
+    "Perfil": "Jurado",
+    "Categoria": "SECTOR AGROINDUSTRIAL",
+    "estado": "VALIDO"
+  }
+    ,
+
+  {
+    "nombre": "LEICY UC TZEC ",
+    "Perfil": "Jurado",
+    "Categoria": "SECTOR AGROINDUSTRIAL",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "CARLOS JOSUÉ HERRERA GUZMÁN ",
+    "Perfil": "Jurado",
+    "Categoria": "INDUSTRIA ELÉCTRICA Y ELECTRÓNICA",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "WALTER SANTANA GÓMEZ ",
+    "Perfil": "Jurado",
+    "Categoria": "INDUSTRIA ELÉCTRICA Y ELECTRÓNICA",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "LEICY UC TZEC ",
+    "Perfil": "Jurado",
+    "Categoria": "INDUSTRIA ELÉCTRICA Y ELECTRÓNICA",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "CARLOS JOSUÉ HERRERA GUZMÁN ",
+    "Perfil": "Jurado",
+    "Categoria": "TECNOLOGÍAS PARA LA SALUD HUMANA",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "WALTER SANTANA GÓMEZ ",
+    "Perfil": "Jurado",
+    "Categoria": "TECNOLOGÍAS PARA LA SALUD HUMANA",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "LEICY UC TZEC ",
+    "Perfil": "Jurado",
+    "Categoria": "TECNOLOGÍAS PARA LA SALUD HUMANA",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "JOSE LUIS ORTEGON DELGADO",
+    "Perfil": "Jurado",
+    "Categoria": "TECNOLOGÍAS EMERGENTES, HACKATEC NM 2026",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "FRANCISCO JESÚS KANTUN HERNANDEZ",
+    "Perfil": "Jurado",
+    "Categoria": "TECNOLOGÍAS EMERGENTES, HACKATEC NM 2026",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": "ARIANNA DEL ÁNGEL PACHECO MAY",
+    "Perfil": "Jurado",
+    "Categoria": "TECNOLOGÍAS EMERGENTES, HACKATEC NM 2026",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
     "nombre": " ",
-    "Perfil": "Asesor",
+    "Perfil": "Jurado",
     "Proyecto": "",
     "Categoria": " ",
     "estado": "VALIDO"
   }
+
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Jurado",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Jurado",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Jurado",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Jurado",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Jurado",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Jurado",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+
+    ,
+
+  {
+    "nombre": " ",
+    "Perfil": "Jurado",
+    "Proyecto": "",
+    "Categoria": " ",
+    "estado": "VALIDO"
+  }
+
+
+
 
 
 ]

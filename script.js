@@ -92,6 +92,8 @@ document.addEventListener("keydown", (e) => {
 
 function sanitizarTexto(texto) {
 
+  if (!texto) return "";
+
   const div = document.createElement("div");
 
   div.innerText = texto;
@@ -104,9 +106,15 @@ function sanitizarTexto(texto) {
 // EVENTOS
 // ===============================
 
-input.addEventListener("input", buscarCertificados);
+input.addEventListener(
+  "input",
+  buscarCertificados
+);
 
-searchButton.addEventListener("click", buscarCertificados);
+searchButton.addEventListener(
+  "click",
+  buscarCertificados
+);
 
 // ===============================
 // FUNCIÓN BUSCAR
@@ -114,7 +122,7 @@ searchButton.addEventListener("click", buscarCertificados);
 
 function buscarCertificados() {
 
-  // Verificar carga JSON
+  // Verificar JSON cargado
   if (certificados.length === 0) {
     return;
   }
@@ -182,17 +190,38 @@ function buscarCertificados() {
 
   // ===============================
   // FILTRAR RESULTADOS
+  // SOPORTA CAMPOS VACÍOS
   // ===============================
 
   const filtrados = certificados.filter(cert =>
 
-    cert.nombre.toLowerCase().includes(valor) ||
+    (cert.nombre || "")
+      .toLowerCase()
+      .includes(valor)
 
-    cert.Perfil.toLowerCase().includes(valor) ||
+    ||
 
-    cert.Proyecto.toLowerCase().includes(valor) ||
+    (cert.Perfil || "")
+      .toLowerCase()
+      .includes(valor)
 
-    cert.Categoria.toLowerCase().includes(valor)
+    ||
+
+    (cert.Proyecto || "")
+      .toLowerCase()
+      .includes(valor)
+
+    ||
+
+    (cert.Categoria || "")
+      .toLowerCase()
+      .includes(valor)
+
+    ||
+
+    (cert.estado || "")
+      .toLowerCase()
+      .includes(valor)
 
   );
 
@@ -225,45 +254,76 @@ function buscarCertificados() {
   // MOSTRAR SUGERENCIAS
   // ===============================
 
-  filtrados.slice(0, 5).forEach(cert => {
+  filtrados
+    .slice(0, 5)
+    .forEach(cert => {
 
-    const div = document.createElement("div");
+      const div =
+        document.createElement("div");
 
-    div.classList.add("suggestion-item");
+      div.classList.add(
+        "suggestion-item"
+      );
 
-    // NOMBRE
-    const nombre = document.createElement("div");
+      // ===============================
+      // NOMBRE
+      // ===============================
 
-    nombre.classList.add("suggestion-name");
+      const nombre =
+        document.createElement("div");
 
-    nombre.textContent = cert.nombre;
+      nombre.classList.add(
+        "suggestion-name"
+      );
 
-    // PROYECTO
-    const proyecto = document.createElement("div");
+      nombre.textContent =
+        cert.nombre || "Sin nombre";
 
-    proyecto.classList.add("suggestion-id");
+      // ===============================
+      // PROYECTO / PERFIL
+      // ===============================
 
-    proyecto.textContent = cert.Proyecto;
+      const proyecto =
+        document.createElement("div");
 
-    // AGREGAR
-    div.appendChild(nombre);
+      proyecto.classList.add(
+        "suggestion-id"
+      );
 
-    div.appendChild(proyecto);
+      proyecto.textContent =
+        cert.Proyecto ||
+        cert.Perfil ||
+        "Sin información";
 
-    // CLICK
-    div.addEventListener("click", () => {
+      // ===============================
+      // AGREGAR
+      // ===============================
 
-      mostrarCertificado(cert);
+      div.appendChild(nombre);
 
-      suggestions.innerHTML = "";
+      div.appendChild(proyecto);
 
-      input.value = cert.nombre;
+      // ===============================
+      // CLICK
+      // ===============================
+
+      div.addEventListener(
+        "click",
+        () => {
+
+          mostrarCertificado(cert);
+
+          suggestions.innerHTML = "";
+
+          input.value =
+            cert.nombre || "";
+
+        }
+      );
+
+      suggestions.appendChild(div);
 
     });
-
-    suggestions.appendChild(div);
-
-  });
 
 }
 
@@ -275,50 +335,88 @@ function mostrarCertificado(cert) {
 
   result.innerHTML = "";
 
-  const card = document.createElement("div");
+  const card =
+    document.createElement("div");
 
   card.classList.add(
     "result-card",
     "valid"
   );
 
+  // ===============================
   // TÍTULO
-  const title = document.createElement("div");
+  // ===============================
 
-  title.classList.add("result-title");
+  const title =
+    document.createElement("div");
+
+  title.classList.add(
+    "result-title"
+  );
 
   title.innerHTML =
     "Certificado Validado";
 
+  // ===============================
   // INFORMACIÓN
-  const info = document.createElement("div");
+  // ===============================
 
-  info.classList.add("result-info");
+  const info =
+    document.createElement("div");
+
+  info.classList.add(
+    "result-info"
+  );
 
   info.innerHTML = `
 
     <strong>Nombre:</strong><br>
-    <span>${sanitizarTexto(cert.nombre)}</span>
+    <span>
+      ${sanitizarTexto(
+        cert.nombre ||
+        "No especificado"
+      )}
+    </span>
 
     <br><br>
 
     <strong>Perfil:</strong><br>
-    <span>${sanitizarTexto(cert.Perfil)}</span>
+    <span>
+      ${sanitizarTexto(
+        cert.Perfil ||
+        "No especificado"
+      )}
+    </span>
 
     <br><br>
 
     <strong>Proyecto:</strong><br>
-    <span>${sanitizarTexto(cert.Proyecto)}</span>
+    <span>
+      ${sanitizarTexto(
+        cert.Proyecto ||
+        "No especificado"
+      )}
+    </span>
 
     <br><br>
 
     <strong>Categoría:</strong><br>
-    <span>${sanitizarTexto(cert.Categoria)}</span>
+    <span>
+      ${sanitizarTexto(
+        cert.Categoria ||
+        "No especificado"
+      )}
+    </span>
 
     <br><br>
 
     <strong>Estado:</strong><br>
-    <span>${sanitizarTexto(cert.estado)}</span>
+    <span>
+      ${sanitizarTexto(
+        cert.estado ||
+        "No especificado"
+      )}
+    </span>
 
   `;
 
@@ -363,17 +461,21 @@ let devtoolsOpen = false;
 
 let paginaActiva = true;
 
-// Detectar si la pestaña está activa
-document.addEventListener("visibilitychange", () => {
+// Detectar pestaña activa
+document.addEventListener(
+  "visibilitychange",
+  () => {
 
-  paginaActiva = !document.hidden;
+    paginaActiva =
+      !document.hidden;
 
-});
+  }
+);
 
 // Detectar DevTools
 setInterval(() => {
 
-  // NO ejecutar si la pestaña está inactiva
+  // No ejecutar si pestaña inactiva
   if (!paginaActiva) {
     return;
   }
