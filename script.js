@@ -289,18 +289,18 @@ function mostrarCertificado(cert) {
 
     <br><br>
 
-    <strong>ID del Certificado:</strong><br>
-    <span>${sanitizarTexto(cert.id)}</span>
+    <strong>Perfil:</strong><br>
+    <span>${sanitizarTexto(cert.perfil)}</span>
 
     <br><br>
 
-     <strong>Perfil:</strong><br>
-    <span>${sanitizarTexto(cert.Perfil)}</span>
+     <strong>Proyecto:</strong><br>
+    <span>${sanitizarTexto(cert.Proyecto)}</span>
 
     <br><br>
 
-    <strong>Programa Académico:</strong><br>
-    <span>${sanitizarTexto(cert.curso)}</span>
+    <strong>categoria:</strong><br>
+    <span>${sanitizarTexto(cert.Categoria)}</span>
 
     <br><br>
 
